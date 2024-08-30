@@ -1,35 +1,44 @@
 (function () {
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
-    { text: "LoRa Node", value: "node"},
-    { text: "Development Kits", value: "dev_kits"},
-    { text: "Ready To Use", value: "ready2use"},
+    { text: "Nodes", value: "node"},
+    { text: "Plug & Play", value: "ready_to_use"},
  ]
 
 
 var prod_obj = {
     gateway: [
+        {text: "HT-M2802", value: "ht-m2802"},
+        {text: "HT-M00S", value: "ht-m00s"},
         {text: "HT-M00", value: "ht-m00"},
         {text: "HT-M01", value: "ht-m01"},
-        {text: "HT-M01S (Phaseout)", value: "ht-m01s"},
         {text: "HT-M01S_V2", value: "ht-m01s_v2"},
-        {text: "HT-M02 (Phaseout)", value: "ht-m02"},
+        {text: "HT-M7603", value: "ht-m7603"},
         {text: "HT-M02_V2", value: "ht-m02_v2"},
         {text: "HT-1303", value: "ht-1303"},
+        {text: "HT-M01S (Phaseout)", value: "ht-m01s"},
+        {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
     node: [
-        {text: "CUBECELL", value: "cubecell"},
-        {text: "ESP32 + LoRa", value: "esp32"},
-        {text: "MCU + LoRa", value: "stm32"},
-    ],
-    dev_kits: [
-        {text: "ESP32+ARDUINO", value: "esp32_arduino"},
-        {text: "ESP8266+ARDUINO", value: "esp8266_arduino"},
+        {text: "Cubecell (ASR650x) Series", value: "asr650x"},
+        {text: "ESP32 Series", value: "esp32"},
+        {text: "Mesh Node T114", value: "nrf"},
+        {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
+        {text: "HT-AT62", value: "ht-at62"},
+        {text: "HT-RA62", value: "ht-ra62"},
     ],
-    ready2use: [
-        {text:"Ready to Use", value: "hru-485-1-i"},
+    ready_to_use: [
+        {text:"HRI-485x", value: "hri-485x"},
+        {text:"HRU-3601", value: "hru-3601"},
+        {text:"HRU-1000", value: "hru-1000"},
+        {text:"HRI-3621", value: "hri-3621"},
+        {text:"HRI-3622", value: "hri-3622"},
+        {text:"HRI-3631", value: "hri-3631"},
+        {text:"HRI-3632", value: "hri-3632"},
+        {text:"HRI-3633", value: "hri-3633"},
+        {text:"Juction Box", value: "junction_box"},
     ],
 }
 

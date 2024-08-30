@@ -6,10 +6,8 @@ HT-M02 is a edge computing LoRa gateway that is very suitable for use in applica
 
 Regarding the device functions, the basic version of HT-M02 provides LoRa gateway and network interface, but it also has rich optional functions such as LTE, PoE, Wi-Fi, which makes it well applicable to various application scenarios.
 
-.. figure:: img/01.png
-    :scale: 70%
-    :alt: no-component
-    :figclass: align-center
+.. image:: ./img/01.png
+   :align: center 
 
 The HT-M02 Rev. 2.0 has the following features:
 -----------------------------------------------
@@ -22,7 +20,7 @@ The HT-M02 Rev. 2.0 has the following features:
 + No fan or motor heat dissipation structure,
 + Multi version can be selected according to your needs.
 
-optional functions of HT-M02 Rev. 2.0
+Optional functions of HT-M02 Rev. 2.0
 -------------------------------------
 Users can choose add one or more of the following functions while place an order:
 
@@ -37,5 +35,7 @@ Users can choose add one or more of the following functions while place an order
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
     M02_V2 Install TTS through Docker <tts-docker>
+    Frequently Asked Questions <frequently_asked_questions>
+    LoRa Basics™ Station <lora_basic_station>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
 
