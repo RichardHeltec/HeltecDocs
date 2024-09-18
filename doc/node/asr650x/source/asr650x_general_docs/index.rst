@@ -9,7 +9,7 @@ HTCC-AB01 (V2) is a Dev-Board. Which is an upgraded version of HTCC-AB01, and ca
 .. toctree::
    :maxdepth: 2
     
-    Quick Start<quick_start>
+    Quick Start <quick_start/index>
     LoRaWAN<lorawan/index>
     Solar Panel<solar_panel>
     Frequently Asked Questions<frequently_asked_questions>
